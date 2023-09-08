@@ -7,7 +7,7 @@ mp_drawing_styles = mp.solutions.drawing_styles
 mp_pose = mp.solutions.pose
 
 # For static images:
-file = 'img.jpg'
+file = 'img.jpg' # Replace the img.jpg with your image
 BG_COLOR = (192, 192, 192)  # gray
 with mp_pose.Pose(
         static_image_mode=True,

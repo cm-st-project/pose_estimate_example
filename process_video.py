@@ -10,7 +10,7 @@ mpDraw = mp.solutions.drawing_utils
 
 # Open video capture (comment/uncomment appropriate line for webcam or video file)
 # cap = cv2.VideoCapture(0)  # Use webcam
-cap = cv2.VideoCapture('video.mp4')  # Use video file
+cap = cv2.VideoCapture('video.mp4')  # replace video.mp4 with your video
 pTime = 0
 width = 800
 height = 600
